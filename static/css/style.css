@@ -34,11 +34,11 @@ body {
 
 .copy {
   display: inline-block;
-  -webkit-transform: matrix(-1.000,-0.009,0.009,-1.000,0,-2);
-  -moz-transform: matrix(-1.000,-0.009,0.009,-1.000,0px,-2px);
-  -ms-transform: matrix(-1.000,-0.009,0.009,-1.000,0,-2);
-  -o-transform: matrix(-1.000,-0.009,0.009,-1.000,0,-2);
-  transform: matrix(-1.000,-0.009,0.009,-1.000,0,-2);
+  -webkit-transform: matrix(-1.000,-0.009,0.009,-1.000,0,-1);
+  -moz-transform: matrix(-1.000,-0.009,0.009,-1.000,0px,-1px);
+  -ms-transform: matrix(-1.000,-0.009,0.009,-1.000,0,-1);
+  -o-transform: matrix(-1.000,-0.009,0.009,-1.000,0,-1);
+  transform: matrix(-1.000,-0.009,0.009,-1.000,0,-1);
 }
 
 footer {
