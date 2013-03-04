@@ -1,6 +1,6 @@
 /* Copyleft 2013, all wrongs reversed */
 /*jslint browser: true*/
-/*globals console*/
+/*globals console,prompt*/
 
 (function () {
     'use strict';
@@ -93,15 +93,32 @@
     // console.log(som);
 
 
-    var maakMeme = function(onderwerp) {
-        return function (voorwerp) {
-            console.log("I heard you like "+ onderwerp +"! So we put a "+ voorwerp +" in your "+ onderwerp +" so you can "+ voorwerp + " while you " + onderwerp + ".");
-        };
+    // var maakMeme = function(onderwerp) {
+    //     return function (voorwerp) {
+    //         console.log("I heard you like "+ onderwerp +"! So we put a "+ voorwerp +" in your "+ onderwerp +" so you can "+ voorwerp + " while you " + onderwerp + ".");
+    //     };
+    // };
+
+    // var programmerenMeme = maakMeme("Programmeren");
+
+    // programmerenMeme("Functie");
+
+
+    // var input = prompt("Whatever?", "Something");
+    // console.log("TEst: "  + (input || "slaolie") );
+
+    var power = function (base, exponent) {
+        var count, result = 1;
+
+        for (count = 0; count < exponent; count += 1) {
+            result *= base;
+        }
+        return result;
     };
 
-    var programmerenMeme = maakMeme("Programmeren");
+    console.log( power(2, 5) );
 
-    programmerenMeme("Functie");
+    console.log(result);
 
     // ------------------------------
 
