@@ -18,6 +18,7 @@
 
     //Check if the user is ready to play!
     confirm('Are you ready to play?');
+
     var age = prompt("What's your age?");
 
     if(age < 18){
@@ -37,7 +38,7 @@
         console.log("You did not say yes to feeling lucky. Good choice! You are a winner in the game of not getting beaten up by Batman."); 
     }
 
-    var feedback = prompt("Please rate my game? []1-10]");
+    var feedback = prompt("Please rate my game? [1-10]");
 
     if(feedback>8){
         console.log("This is just the beginning of my game empire. Stay tuned for more!");

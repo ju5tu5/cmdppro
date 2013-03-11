@@ -5,6 +5,7 @@
 (function () {
     'use strict';
 
+    foo();
 
 // Sluiten van de scope functie
 }());
