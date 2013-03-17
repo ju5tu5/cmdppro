@@ -1,5 +1,5 @@
 /* Copyleft 2013, all wrongs reversed */
-/*jslint browser: true*/
+/*jslint browser: true, vars: true*/
 /*globals console*/
 
 (function () {
