@@ -2,7 +2,7 @@
 /*jslint browser: true, vars: true*/
 /*globals console*/
 
-(function () {
+window.onload = function () {
     'use strict';
 
     // Alle parameters worden voorzien van datatype doorgestuurd naar console.log()
@@ -14,5 +14,5 @@
     };
 
     // Jouw code komt hier onder
-    
-}());
+
+};
