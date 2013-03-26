@@ -38,6 +38,7 @@ window.onload = function () {
         var naamveld = document.forms.eenFormulier.elements.naam;
         var emailveld = document.forms.eenFormulier.elements.email;
         var mobielveld = document.forms.eenFormulier.elements.mobiel;
+
         if (naamveld.value === "") {
             event.preventDefault();
             toonFoutmelding("Voer een naam in alsjeblieft");

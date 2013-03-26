@@ -29,7 +29,7 @@ window.onload = function () {
                 removeHandler(beweegBallonBijClick);
             }
             // verplaats de ballon een klein beetje
-            ballon.style.top = ((rangeX + Math.sin(angle) * rangeX) - 18) + "px";
+            ballon.style.top = ((rangeX - Math.sin(angle) * rangeX) - 18) + "px";
         // de interval is 100 miliseconden
         }, 100);
 
