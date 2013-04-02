@@ -64,6 +64,10 @@ window.onload = function () {
     // List all possible functions
     var help = function () {
         addLineToStory("help: geef dit overzicht weer!");
+        addLineToStory("north: ga in die richting!");
+        addLineToStory("east: ga in die richting!");
+        addLineToStory("south: ga in die richting!");
+        addLineToStory("west: ga in die richting!");
     };
 
     var getDirections = function () {
@@ -97,6 +101,8 @@ window.onload = function () {
     var east = generateTransferFunction('east');
     var south = generateTransferFunction('south');
     var west = generateTransferFunction('west');
+    var up = generateTransferFunction('up');
+    var down = generateTransferFunction('down');
 
 
     // Handel commando's af

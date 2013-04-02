@@ -23,7 +23,14 @@
     {
         "description":"foo, je kunt alleen terug",
         "exits": {
-            "east": 1
+            "east": 1,
+            "up": 4
+        }
+    },
+    {
+        "description": "Wauw ik ben boven, über!!!1111oneone",
+        "exits": {
+            "down": 3
         }
     }
 ]

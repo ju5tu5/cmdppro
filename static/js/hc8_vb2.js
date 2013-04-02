@@ -17,6 +17,10 @@ window.onload = function () {
         {
             "naam": "schaar",
             "overtroeft": ["papier"]
+        },
+        {
+            "naam": "spock",
+            "overtroeft": ["lizard"]
         }
     ];
 
